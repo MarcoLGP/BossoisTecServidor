@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="BossoisServer.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <BossoisServer.Properties.Settings>
+            <setting name="db_path" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="server_port" serializeAs="String">
+                <value>5039</value>
+            </setting>
+            <setting name="db_user" serializeAs="String">
+                <value>SYSDBA</value>
+            </setting>
+            <setting name="db_pass" serializeAs="String">
+                <value>masterkey</value>
+            </setting>
+            <setting name="run_server" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="first_run" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="server_pass" serializeAs="String">
+                <value>masterkey</value>
+            </setting>
+        </BossoisServer.Properties.Settings>
+    </userSettings>
+</configuration>
